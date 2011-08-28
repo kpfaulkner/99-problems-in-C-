@@ -14,7 +14,8 @@ namespace ninetynineproblems
 			var p5 = new P5();
 			var p6 = new P6();
 			var p7 = new P7();
-
+            var p8 = new P8();
+            var p9 = new P9();
             Console.ReadKey();
 		}
 	}
