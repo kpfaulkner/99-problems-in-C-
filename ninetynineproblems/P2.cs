@@ -12,7 +12,6 @@ namespace ninetynineproblems
 		
 		public P2 ()
 		{
-
 			var l = new List<int>(){1,2,3,5,8};
 			
 			var result = Penultimate( l );

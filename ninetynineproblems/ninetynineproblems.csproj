@@ -33,11 +33,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.XML" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.Linq" />
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="P11.cs" />
+    <Compile Include="P10.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="P1.cs" />
@@ -48,6 +51,7 @@
     <Compile Include="P6.cs" />
     <Compile Include="P7.cs" />
     <Compile Include="P8.cs" />
+    <Compile Include="P9.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

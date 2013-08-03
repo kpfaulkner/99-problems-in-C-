@@ -7,26 +7,30 @@ namespace ninetynineproblems
 {
     public class P9
     {
-        public IEnumerable<char> Compress(List<char> l)
+        public IEnumerable<List<char>> Compress(List<char> l)
         {
 
-            char previousChar = ' ';
+            char previousChar = l[0];
 
-            var newList = new List<char>();
+            var newList = new List<char>( previousChar);
 
-            foreach (var i in l)
+            foreach(var i in l.Skip(1))
             {
-                if (i != previousChar)
+                if (i == previousChar)
                 {
                     newList.Add(i);
                 }
                 else
                 {
                     yield return newList;
+                    newList = new List<char>();
+                    newList.Add(i);
                 }
                 previousChar = i;
 
             }
+
+            yield return newList;
 
         }
 
@@ -35,16 +39,19 @@ namespace ninetynineproblems
 
             var l = new List<char>() { 'a', 'a', 'a', 'a', 'b', 'c', 'c', 'a', 'a', 'd', 'e', 'e', 'e', 'e' };
 
+            var res = Compress(l);
+
+            /*
             foreach (var i in Compress(l))
             {
-                Console.WriteLine(i);
-
-
-            }
-
+                Console.WriteLine("new list");
+                foreach (var j in i)
+                {
+                    Console.WriteLine(j + " ");
+                }
+            }*/
 
         }
-
     }
 }
 

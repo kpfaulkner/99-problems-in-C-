@@ -32,13 +32,8 @@ namespace ninetynineproblems
             foreach( var i in Compress( l ) )
             {
                 Console.WriteLine( i );            
-            
-
             }
-
-           
         }
-
     }
 }
 

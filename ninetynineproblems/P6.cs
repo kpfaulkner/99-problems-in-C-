@@ -14,7 +14,6 @@ namespace ninetynineproblems
 			ll.Reverse();
 			return Enumerable.SequenceEqual( l, ll);
 			
-			
 		}
 		
 		public P6 ()
