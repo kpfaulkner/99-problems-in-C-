@@ -39,6 +39,11 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="P17.cs" />
+    <Compile Include="P16.cs" />
+    <Compile Include="P15.cs" />
+    <Compile Include="P14.cs" />
+    <Compile Include="P13.cs" />
     <Compile Include="P12.cs" />
     <Compile Include="P11.cs" />
     <Compile Include="P10.cs" />

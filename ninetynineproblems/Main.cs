@@ -20,7 +20,12 @@ namespace ninetynineproblems
             //var p9 = new P9();
             //var p10 = new P10();
             //var p11 = new P11();
-            var p12 = new P12();
+            //var p12 = new P12();
+            //var p13 = new P13();
+            //var p14 = new P14();
+            //var p15 = new P15();
+            //var p16 = new P16();
+            var p17 = new P17();
 
             Console.ReadKey();
 		}
