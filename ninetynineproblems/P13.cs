@@ -18,8 +18,6 @@ namespace ninetynineproblems
             var count = 0;
             char ch = ' ';
 
-            Tuple<int, char> currentEntry = null;
-
             foreach (var i in l)
             {
                 if (i != ch)
